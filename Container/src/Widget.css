@@ -1,0 +1,39 @@
+.widget {
+    position: fixed;
+    z-index: 10;
+    bottom: 24px;
+    right: 24px;
+    background-color: #f9fafb;
+    border-radius: 4px;
+}
+
+.widget-button {
+    font-size: 18px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.widget-content {
+    padding: 1rem;
+}
+
+.widget-content button {
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.widget-content-card {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.widget-content-card p {
+    margin: 8px 0;
+}
+
